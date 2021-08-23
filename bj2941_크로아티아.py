@@ -38,4 +38,3 @@ for i in croatia:
     s = s.replace(i,'_')
     print(s)
 print(len(s))
-print("test")
