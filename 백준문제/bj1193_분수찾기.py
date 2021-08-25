@@ -19,3 +19,11 @@ startpoint = an[index-1]
 if index%2==0: A,B=1+x-startpoint,index-x+startpoint
 else: A,B=index-x+startpoint,1+x-startpoint
 print("{}/{}".format(A,B))
+
+# 숏코딩
+# X=int(sys.stdin.readline())
+# n=k=0
+# while X>n:n+=k;k+=1
+# a=k-n+X-1
+# if k%2:a=k-a
+# print(f'{k-a}/{a}')
