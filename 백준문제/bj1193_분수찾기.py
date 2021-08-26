@@ -27,3 +27,6 @@ print("{}/{}".format(A,B))
 # a=k-n+X-1
 # if k%2:a=k-a
 # print(f'{k-a}/{a}')
+
+# 수정 해 불고
+# 똥싸고
