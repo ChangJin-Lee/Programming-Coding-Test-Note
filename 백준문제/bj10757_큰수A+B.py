@@ -17,3 +17,7 @@ for i in range(index):
     else: checktens = False; C.append(addnum)
 if checktens: C.append(1)
 print("".join(list(map(str,reversed(C)))))
+
+# 숏코딩이 가능하긴 한데, 매우 큰 수는 더하기가 안됨.
+# 내 방법대로 해야함
+# print(sum(map(int,input().split())))
