@@ -10,3 +10,4 @@ if possible : print(min(possible))
 else: print(-1)
 
 # 숏코딩
+##
