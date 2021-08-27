@@ -1,3 +1,4 @@
+# 5*x + 3*y = N 이되는 가능한 L = (x,y) 중에서 최소값을 찾는 문제.
 import sys
 N = int(sys.stdin.readline().rstrip())
 row,col,possible = int(N/5), int(N/3), []
