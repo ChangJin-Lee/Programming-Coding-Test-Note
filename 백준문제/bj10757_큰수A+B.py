@@ -9,8 +9,7 @@ if lenA > lenB:
 else: 
     index = lenB
     for i in range(lenB-lenA): A.append(0)
-checktens = False
-C=[]
+checktens,C = False,[]
 for i in range(index):
     addnum = A[i] + B[i]
     if checktens: addnum+=1
