@@ -10,4 +10,5 @@ if possible : print(min(possible))
 else: print(-1)
 
 # 숏코딩
-##
+# n=int(input())
+# print(-(n in[4,7])or n-2*n//5*2)
