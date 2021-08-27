@@ -8,3 +8,5 @@ for i in range(0,row+1):
 # print(possible)
 if possible : print(min(possible))
 else: print(-1)
+
+# 숏코딩
