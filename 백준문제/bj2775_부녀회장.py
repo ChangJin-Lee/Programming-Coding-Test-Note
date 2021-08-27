@@ -10,7 +10,6 @@ for i in range(T):
             rooms[j][m] = sum(rooms[j-1][:m+1])
     print(rooms[row][col-1])
 
-# 쇼숏
 # 숏코딩
 # import math
 # exec('k=int(input());n=int(input());print(math.comb(n+k,n-1));' * int(input()))
