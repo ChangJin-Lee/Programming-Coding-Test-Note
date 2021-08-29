@@ -1,17 +1,22 @@
 import sys
-input = list(map(int,sys.stdin.readline().rstrip()))
-print(input)
-#bj10250 acm호텔
-import sys
-T = int(sys.stdin.readline().rstrip())
-for _ in range(T):
-    H, W, N = map(int,sys.stdin.readline().rstrip().split())
-    floor = N%H
-    unit = N//H + 1 
-    if floor == 0:
-        floor = H
-        unit = N//H # unit = 1 로 생각했음
-    print(floor*100+unit)
+# 자연수 N보다 작은 소수들을 구함
+def prime_list(n):
+    # 에라토스테네스의 체 초기화: n개 요소에 True 설정(소수로 간주)
+    sieve = [True] * n
 
-# 숏코딩
-# exec('h,w,n=map(int,input().split());n-=1;print((n%h+1)*100+n//h+1);'*int(input()))
+    m = int(n ** 0.5)
+    for i in range(2, m + 1):
+        if sieve[i] == True:           # i가 소수인 경우 
+            for j in range(i+i, n, i): # i이후 i의 배수들을 False 판정
+                sieve[j] = False
+    return [i for i in range(2, n) if sieve[i] == True]
+
+N = int(sys.stdin.readline().rstrip())
+primes = prime_list(N)
+primes.append(N)
+for prime in primes:
+    while N%prime == 0: 
+        N=N/prime
+        print(prime)
+        if N==1: break
+    if N==1: break
