@@ -1,3 +1,6 @@
+import sys
+input = list(map(int,sys.stdin.readline().rstrip()))
+print(input)
 #bj10250 acm호텔
 import sys
 T = int(sys.stdin.readline().rstrip())
