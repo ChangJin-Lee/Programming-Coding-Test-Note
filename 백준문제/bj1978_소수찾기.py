@@ -1,5 +1,4 @@
 # 2021/08 coding
-# it's better than last coding
 import sys
 N = int(sys.stdin.readline().rstrip())
 nums = list(map(int,sys.stdin.readline().rstrip().split()))
