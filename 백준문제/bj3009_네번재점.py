@@ -8,4 +8,7 @@ for i in range(3):
     if y.count(y[i]) == 1 : cy = y[i]
 print(cx,cy,sep=" ")
 
+#숏코딩
+# x=y=0;exec("a,b=map(int,input().split());x^=a;y^=b;"*3)
+# print(x,y)
 
