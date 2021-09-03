@@ -12,5 +12,8 @@
 #### 만약 1,000을 넘어가면 RecursionError: maximum recursion depth exceeded while pickling an object 가 뜰것임.
 #### -> while문을 쓰던지 해야함 recursive로 한계가 있음.
 
-## edge case
-#
+## edge case? 
+
+## 어려웠던 문제
+
+#### 1002번 터렛 -> 원의 내접 외접 관련 문제. 제곱의 오차에 관련된 케이스가 어려웠음
