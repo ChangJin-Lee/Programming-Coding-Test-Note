@@ -1,14 +1,17 @@
-# n의 수가 매우큼. 같은 수가 나올 빈도가 매우 높기때문에 빈도를 저장하자. 다행히 수의 범위가 적다.
 import sys
 n=int(sys.stdin.readline())
+nums = [0]*4000
+for i in range(n):
+  x = int(sys.stdin.readline())
+  nums[x]+=1
 
-# 계수정렬
-frequency = [0]*10001
-for _ in range(n):
-    i = int(sys.stdin.readline())
-    frequency[i] += 1
+# 산술평균 
+average = round(sum(nums)/n)
+#중간값
+mean = nums[int(n/2)]
+#최반값
+mode = nums.index(max(nums))
+#범위
+range = nums[n-1] - nums[0]
 
-for i in range (10001): #0~10000
-    if frequency[i]!=0:
-        for j in range(frequency[i]):
-            print(i)
+print(average, mean, mode, range, sep="\n")
