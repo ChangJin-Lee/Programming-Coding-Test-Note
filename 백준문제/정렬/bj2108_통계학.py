@@ -1,18 +1,32 @@
 import sys
 n=int(sys.stdin.readline())
-nums = []
+frequency = [0]*8001
 for i in range(n):
   x = int(sys.stdin.readline())
-  nums.append(x)
-nums = sorted(nums)
+  frequency[4000+x]+=1
+temp=[]
+for i in range(8001):
+  if frequency[i]!=0:
+    for j in range(frequency[i]):
+      temp.append(i-4000)
 
 # 산술평균
-average = round(sum(nums)/n)
+average = round(sum(temp)/n)
 #중간값
-mean = nums[int(n/2)]빈
-#최값
-mode = nums.index(max(nums))
+mean = temp[int(n/2)]
+#최빈값
+frecnt = frequency.count(max(frequency))
+freindex = frequency.index(max(frequency))
+mode = freindex-4000
+if frecnt>1:
+  k = temp.index(freindex-4000)
+  o = temp[k]
+  for i in range(len(temp)):
+    if o != temp[i] and temp.count(o) == temp.count(temp[i]) : mode = temp[i]; break
 #범위
-range = nums[n-1] - nums[0]
+range = temp[n-1] - temp[0]
 
 print(average, mean, mode, range, sep="\n")
+
+
+
