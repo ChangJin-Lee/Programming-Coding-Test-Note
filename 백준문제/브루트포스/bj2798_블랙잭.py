@@ -8,4 +8,3 @@ for i in range(N):
             compare = cards[i]+cards[j]+cards[k]
             if compare > sums and compare <= M: sums = compare
 print(sums)
-
