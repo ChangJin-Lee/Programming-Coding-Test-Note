@@ -1,17 +1,8 @@
 import sys
-n=int(sys.stdin.readline())
-nums = [0]*4000
-for i in range(n):
-  x = int(sys.stdin.readline())
-  nums[x]+=1
+def placepeace(list,n,m):
+  list[n][m]=1
+  list[n-1][m-1]=1
+n = int(sys.stdin.readline().rstrip())
+chess = [[0 for i in range(n)]for j in range(n)]
+print(chess)
 
-# 산술평균 
-average = round(sum(nums)/n)
-#중간값
-mean = nums[int(n/2)]
-#최반값
-mode = nums.index(max(nums))
-#범위
-range = nums[n-1] - nums[0]
-
-print(average, mean, mode, range, sep="\n")
