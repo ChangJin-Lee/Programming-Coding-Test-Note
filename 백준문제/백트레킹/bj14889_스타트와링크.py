@@ -2,6 +2,7 @@
 # 1. i,j 인덱스를 돌리는 for문에서 불필요한 반복이 있었음.
 # 2. append보다 [x for x in range(n)] 이게 더 빠른거 같음.
 # 3. 집합이 조금 더 가벼움. 집합을 사용하셈
+
 import sys, itertools
 n = int(sys.stdin.readline().rstrip())
 halfn = int(n/2)
