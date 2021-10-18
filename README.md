@@ -28,9 +28,10 @@
 #### https://wikidocs.net/84431 
 
 
+##
 
 
-## algorithm
+## *** algorithm
 
 ### Dynamic programming
 #### 분할정복 즉 Divide and conquer 에서는 풀었던 문제를 다시 반복해서 풀지만 다이나믹 프로그래밍에서는 단 한번만 문제를 푼다.
