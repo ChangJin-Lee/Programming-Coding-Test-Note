@@ -1,3 +1,6 @@
+### 실패
+
+
 import sys
 
 n = int(sys.stdin.readline().rstrip())
@@ -6,11 +9,14 @@ stair = []
 dp = [[0 for i in range(n)] for j in range(3)]
 for i in range(n):
     point = int(sys.stdin.readline().rstrip())
-    for j in range(3):
+    for j in range(2):
         dp[j][i] = point
 
+dp[0].reverse()
+dp[1].reverse()
 # ## dp를 -1로 갱신하면 해당하는 층을 밟았다
 # ## dp를 0으로 갱신하면 해당하는 층은 밟지않았다
+
 
 # 10으로 시작
 stair.append(dp[0][0])
@@ -18,14 +24,14 @@ dp[0][0] = -1
 dp[0][1] = 0
 
 # 01로 시작
-stair.append(dp[1][1])
-dp[1][0] = 0
-dp[1][1] = -1
+# stair.append(dp[1][1])
+# dp[1][0] = 0
+# dp[1][1] = -1
 
 # 11로 시작
-stair.append(dp[2][0] + dp[2][1])
-dp[2][0] = -1
-dp[2][1] = -1
+stair.append(dp[1][0] + dp[1][1])
+dp[1][0] = -1
+dp[1][1] = -1
 
 # stair 는 현재까지 올라온 계단의 최댓값
 
@@ -34,7 +40,7 @@ for i in range(3):
         print(i,j)
         print(stair)
         print(dp)
-        if dp[i][j] != -1:
+        if dp[i][j] != -1 :
             if dp[i][j-2] == -1 and dp[i][j-1] != -1:
                 stair[i] += dp[i][j]
                 dp[i][j] = -1
@@ -50,7 +56,7 @@ for i in range(3):
             elif dp[i][j-2] == -1 and dp[i][j-1] == -1:
                 dp[i][j] = 0
 
-for i in range(3):
+for i in range(2):
     if dp[i][-1] != -1:
     # 두번 건너서 마지막으로 가는 경우
         if dp[i][-4] != -1 and dp[i][-3] == -1 and dp[i][-2]!=-1:
