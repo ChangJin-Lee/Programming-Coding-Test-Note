@@ -1,10 +1,11 @@
+# aaabccddd
+# ppffccmmssnnhhbbmmggxxaaooeeqqeennffzzaaeeyyaaggggeessvvssggbbccnnrrjjxxuuzzbbjjrruuaaccaaoommkkkkxx
 def superReducedString(s):
     s = list(s)
     i=0
     result = ""
     temp = 0
     while True:
-        print(s, i, len(s))
         if i >= len(s)-1:
             break
         if s[i] == s[i+1]:
@@ -18,12 +19,8 @@ def superReducedString(s):
     else:
         result = "".join(s)
     return result
-    # Write your code
     # Write your code here
 
-
 s = input()
-
 result = superReducedString(s)
-
 print(result)
