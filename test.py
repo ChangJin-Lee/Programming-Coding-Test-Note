@@ -1,29 +1,12 @@
-def superReducedString(s):
-    s = list(s)
-    i=0
-    result = ""
-    temp = 0
-    while True:
-        print(s, i, len(s))
-        if i >= len(s)-1:
-            break
-        if s[i] == s[i+1]:
-            s.pop(i)
-            s.pop(i)
-            i=0
-        else:
-            i+=1
-    if not s:
-        result = "Empty String"
-    else:
-        result = "".join(s)
-    return result
-    # Write your code
-    # Write your code here
+a = [1,5,8,10]
 
+b = [5,7,10,1]
 
-s = input()
+print(b.index(1))
+print(b[b.index(a[0])])
 
-result = superReducedString(s)
+i = b.index(a[0])
 
-print(result)
+b[i], b[0] = b[0], b[i]
+
+print(b)

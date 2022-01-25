@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8095c166-cee9-4282-804a-9d2be583cee4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HackerRank/Super Reduced String.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준문제/그리디/bj11047_동전.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/백준문제/스택/bj10828_스택.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/백준문제/연세대경진대회/bj23303_D2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/coding_test_python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/coding_test_python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
@@ -47,7 +49,29 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.bj23303_D2">
+    <configuration name="bj10828_스택" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="coding_test_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준문제/스택" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준문제/스택/bj10828_스택.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="bj11047_동전" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="codingtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,42 +116,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bj12865_평범한배낭" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="codingtest" />
+    <configuration name="bj23303_D2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="coding_test_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준문제/동적계획법1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준문제/연세대경진대회" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준문제/동적계획법1/bj12865_평범한배낭.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="bj2565_전깃줄" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="codingtest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준문제/동적계획법1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준문제/동적계획법1/bj2565_전깃줄.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준문제/연세대경진대회/bj23303_D2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bj23303_D2" />
+        <item itemvalue="Python.bj10828_스택" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.bj11047_동전" />
         <item itemvalue="Python.bj11399_ATM" />
-        <item itemvalue="Python.bj12865_평범한배낭" />
-        <item itemvalue="Python.bj2565_전깃줄" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +195,12 @@
       <workItem from="1636441964962" duration="7211000" />
       <workItem from="1637040811422" duration="5803000" />
       <workItem from="1637200616765" duration="3762000" />
-      <workItem from="1637212402806" duration="990000" />
+      <workItem from="1637212402806" duration="2330000" />
+      <workItem from="1637322011407" duration="1591000" />
+      <workItem from="1637381343600" duration="9125000" />
+      <workItem from="1637815680579" duration="658000" />
+      <workItem from="1641385660844" duration="1347000" />
+      <workItem from="1643073708162" duration="157000" />
     </task>
     <task id="LOCAL-00001" summary="delete error">
       <created>1631425559641</created>
@@ -293,7 +300,21 @@
       <option name="project" value="LOCAL" />
       <updated>1636446861200</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Super Reduced String.py">
+      <created>1637213464542</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1637213464542</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Sherlock and the Valid String.py">
+      <created>1637213548629</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1637213548629</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,17 +334,21 @@
     <MESSAGE value="bj2565_전깃줄.py" />
     <MESSAGE value="bj12865_평범한배낭.py" />
     <MESSAGE value="bj11399_ATM.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="bj11399_ATM.py" />
+    <MESSAGE value="Super Reduced String.py" />
+    <MESSAGE value="Sherlock and the Valid String.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sherlock and the Valid String.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/codingtest$bj1932_.coverage" NAME="bj1932_정수삼각형 Coverage Results" MODIFIED="1634135614361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/백준문제/동적계획법1" />
     <SUITE FILE_PATH="coverage/codingtest$bj12865_.coverage" NAME="bj12865_평범한배낭 Coverage Results" MODIFIED="1636445501654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/백준문제/동적계획법1" />
+    <SUITE FILE_PATH="coverage/codingtest$bj23303_D2.coverage" NAME="bj23303_D2 Coverage Results" MODIFIED="1643073852115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/백준문제/연세대경진대회" />
     <SUITE FILE_PATH="coverage/codingtest$bj15649_NM_1.coverage" NAME="bj15649_N과M 1 Coverage Results" MODIFIED="1632323577125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/백준문제/백트레킹" />
     <SUITE FILE_PATH="coverage/codingtest$bj15652_NM_4.coverage" NAME="bj15652_N과M 4 Coverage Results" MODIFIED="1632362097794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/백준문제/백트레킹" />
     <SUITE FILE_PATH="coverage/codingtest$bj1149_RGB.coverage" NAME="bj1149_RGB거리 Coverage Results" MODIFIED="1634133970692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/백준문제/동적계획법1" />
+    <SUITE FILE_PATH="coverage/codingtest$bj10828_.coverage" NAME="bj10828_스택 Coverage Results" MODIFIED="1641386573630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/백준문제/스택" />
     <SUITE FILE_PATH="coverage/codingtest$bj2579_.coverage" NAME="bj2579_계단오르기 Coverage Results" MODIFIED="1634201116787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/백준문제/동적계획법1" />
     <SUITE FILE_PATH="coverage/codingtest$bj11047_.coverage" NAME="bj11047_동전 Coverage Results" MODIFIED="1636448243364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/백준문제/그리디" />
-    <SUITE FILE_PATH="coverage/codingtest$test.coverage" NAME="test Coverage Results" MODIFIED="1637213242758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/codingtest$test.coverage" NAME="test Coverage Results" MODIFIED="1641386344389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/codingtest$bj15651_NM_3.coverage" NAME="bj15651_N과M 3 Coverage Results" MODIFIED="1632362032553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/백준문제/백트레킹" />
     <SUITE FILE_PATH="coverage/codingtest$bj2565_.coverage" NAME="bj2565_전깃줄 Coverage Results" MODIFIED="1635831870399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/백준문제/동적계획법1" />
     <SUITE FILE_PATH="coverage/codingtest$bj18870_.coverage" NAME="bj18870_좌표압축 Coverage Results" MODIFIED="1632321820657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/백준문제/정렬" />
