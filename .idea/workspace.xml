@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8095c166-cee9-4282-804a-9d2be583cee4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/백준문제/스택/bj10828_스택.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준문제/연세대경진대회/bj23303_D2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/coding_test_python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/coding_test_python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/백준문제/연세대경진대회/bj23305_수강변경.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +196,7 @@
       <workItem from="1637381343600" duration="9125000" />
       <workItem from="1637815680579" duration="658000" />
       <workItem from="1641385660844" duration="1347000" />
-      <workItem from="1643073708162" duration="157000" />
+      <workItem from="1643073708162" duration="1156000" />
     </task>
     <task id="LOCAL-00001" summary="delete error">
       <created>1631425559641</created>
@@ -314,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637213548629</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="bj23303_D2.py">
+      <created>1643073950402</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1643073950402</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +339,8 @@
     <MESSAGE value="bj11399_ATM.py" />
     <MESSAGE value="Super Reduced String.py" />
     <MESSAGE value="Sherlock and the Valid String.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sherlock and the Valid String.py" />
+    <MESSAGE value="bj23303_D2.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="bj23303_D2.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/codingtest$bj1932_.coverage" NAME="bj1932_정수삼각형 Coverage Results" MODIFIED="1634135614361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/백준문제/동적계획법1" />
