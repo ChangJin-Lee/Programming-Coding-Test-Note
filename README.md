@@ -1,6 +1,6 @@
 
 
-# About Pythons
+# About Python
 Coding Test
 코테준비 연습
 
