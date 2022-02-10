@@ -1,12 +1,39 @@
-a = [1,5,8,10]
+class Node:
+    def __init__(self, data, left_node, right_node):
+        self.data = data
+        self.left_node = left_node
+        self.right_node = right_node
 
-b = [5,7,10,1]
+def pre_order(node):
+    print(node.data,end='')
+    if node.left_node != '.':
+        pre_order(tree[node.left_node])
+    if node.right_node != '.':
+        pre_order(tree[node.right_node])
 
-print(b.index(1))
-print(b[b.index(a[0])])
+def in_order(node):
+    if node.left_node != '.':
+        in_order(tree[node.left_node])
+    print(node.data, end='')
+    if node.right_node != '.':
+        in_order(tree[node.right_node])
 
-i = b.index(a[0])
+def post_order(node):
+    if node.left_node != '.':
+        post_order(tree[node.left_node])
+    if node.right_node != '.':
+        post_order(tree[node.right_node])
+    print(node.data, end='')
 
-b[i], b[0] = b[0], b[i]
+n = int(input())
+tree = {}
 
-print(b)
+for _ in range(n):
+    data, left_node, right_node = input().split()
+    tree[data] = Node(data,left_node, right_node)
+
+pre_order(tree['A'])
+print()
+in_order(tree['A'])
+print()
+post_order(tree['A'])
