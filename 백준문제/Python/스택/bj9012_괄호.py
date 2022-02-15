@@ -8,14 +8,13 @@ import sys
 
 def solution(list):
     lefts, rights = 0, 0
-    z = True
     x = list.pop(0)
     if x == ')':
         return "NO"
     else:
         lefts += 1
-    for i in range(len(ps)):
-        x = ps.pop(0)
+    for i in range(len(list)):
+        x = list.pop(0)
         if lefts == rights:
             if x == ')':
                 return "NO"
@@ -26,11 +25,10 @@ def solution(list):
                 lefts += 1
             else:
                 rights += 1
-    if z:
-        if lefts == rights:
-            return "YES"
-        else:
-            return "NO"
+    if lefts == rights:
+        return "YES"
+    else:
+        return "NO"
 
 t = int(sys.stdin.readline().rstrip())
 
