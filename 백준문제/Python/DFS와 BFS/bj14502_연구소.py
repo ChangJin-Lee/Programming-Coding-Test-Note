@@ -70,8 +70,8 @@ for i in range(n):
     for j in range(m):
         coordinate.append((i,j))
 #print(maps)
-safezones = 0
-cnt = 0
+safezones = 0 # 안전 영역의 크기
+#cnt = 0 # 총 경우의 수의 크
 # 3개의 벽을 치는 모든 경우의 수에 대해 바이러스가 퍼지는 상황을 대입해보자.
 for (a1,a2) in coordinate:
     if maps[a1][a2] == 0:
@@ -80,10 +80,10 @@ for (a1,a2) in coordinate:
                 for (c1,c2) in coordinate[b1*m+b2+1:]:
                     #print((a1,a2),(b1,b2),(c1,c2))
                     if maps[c1][c2] == 0:
-                        cnt+=1
-                        case = copy.deepcopy(maps)
-                        case[a1][a2], case[b1][b2], case[c1][c2] = 1,1,1
-                        t = bfs(case,n,m)
+                        #cnt+=1
+                        cases = copy.deepcopy(maps)
+                        cases[a1][a2], cases[b1][b2], cases[c1][c2] = 1,1,1
+                        t = bfs(cases,n,m)
                         if t > safezones:
                             safezones = t
 print(safezones)
