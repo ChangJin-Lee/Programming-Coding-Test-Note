@@ -1,4 +1,3 @@
 import sys
 
-a = list(sys.stdin.readline())
-print(a)
+print(2|5)
