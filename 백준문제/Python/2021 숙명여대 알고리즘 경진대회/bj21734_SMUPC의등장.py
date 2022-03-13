@@ -1,6 +1,5 @@
 import sys
-s = sys.stdin.readline().rstrip()
-S = [x for x in s]
+S = list(sys.stdin.readline().rstrip())
 for z in S:
     k = ord(z)
     k = str(k)

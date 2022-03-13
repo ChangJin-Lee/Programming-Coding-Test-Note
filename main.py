@@ -1,1 +1,4 @@
-print(int(eval("1-11")))
+import sys
+
+a = list(sys.stdin.readline())
+print(a)

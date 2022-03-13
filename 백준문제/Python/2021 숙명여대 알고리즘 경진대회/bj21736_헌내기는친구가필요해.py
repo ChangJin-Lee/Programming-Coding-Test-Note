@@ -1,3 +1,4 @@
+# dfs, bfs를 사용한 미로찾기 알고리즘 쓰는거임.
 import sys
 from collections import deque
 # def dfs(graph, start_node):
@@ -16,6 +17,8 @@ from collections import deque
 n,m = map(int,sys.stdin.readline().rstrip().split())
 maps = [list(sys.stdin.readline()) for _ in range(n)]
 visited = [[0 for _ in range(m)] for _ in range(n)]
+
+print(maps)
 
 def bfs(x,y):
     cnt = 0 # 방문 횟수
