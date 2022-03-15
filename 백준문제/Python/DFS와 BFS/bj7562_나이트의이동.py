@@ -1,3 +1,17 @@
+# https://www.acmicpc.net/problem/7562
+# we need to calculate night position
+# input values
+# 3
+# 8
+# 0 0
+# 7 0
+# 100
+# 0 0
+# 30 50
+# 10
+# 1 1
+# 1 1
+
 import sys
 from collections import deque
 
