@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8095c166-cee9-4282-804a-9d2be583cee4" name="Default Changelist" comment="bj7562_나이트의이동.py&#10;Add line comment">
-      <change afterPath="$PROJECT_DIR$/백준문제/Python/bj24510_시간복잡도를배운도도.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/coding_test_python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/coding_test_python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8095c166-cee9-4282-804a-9d2be583cee4" name="Default Changelist" comment="upload">
+      <change afterPath="$PROJECT_DIR$/백준문제/Python/2022 ICPC Sinchon Winter Algorithm Camp Contest/bj24509_상품의 주인은.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준문제/Python/그리디/bj11047_동전.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준문제/Python/그리디/bj11047_동전.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,10 +66,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\이창진\PycharmProjects\Coding-Test\백준문제\Python\2022 ICPC Sinchon Winter Algorithm Camp Contest" />
       <recent name="Z:\Github\codingtest\백준문제\Python" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.bj24510_시간복잡도를배운도도">
+  <component name="RunManager" selected="Python.bj24509_상품의 주인은">
     <configuration name="bj11047_동전" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding_test_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bj23048_자연수 색칠하기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="bj24509_상품의 주인은" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding_test_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,12 +101,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준문제/Python/2021 서울대학교 프로그래밍 경시대회" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준문제/Python/2022 ICPC Sinchon Winter Algorithm Camp Contest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준문제/Python/2021 서울대학교 프로그래밍 경시대회/bj23048_자연수 색칠하기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준문제/Python/2022 ICPC Sinchon Winter Algorithm Camp Contest/bj24509_상품의 주인은.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bj9020_골드바흐의 추측" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="codecs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding_test_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,12 +145,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준문제/Python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../Python/Lib" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준문제/Python/bj9020_골드바흐의 추측.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../Python/Lib/codecs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bj24509_상품의 주인은" />
+        <item itemvalue="Python.codecs" />
         <item itemvalue="Python.bj24510_시간복잡도를배운도도" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.bj11047_동전" />
-        <item itemvalue="Python.bj9020_골드바흐의 추측" />
-        <item itemvalue="Python.bj23048_자연수 색칠하기" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +244,7 @@
       <workItem from="1647316565651" duration="3000" />
       <workItem from="1647321759396" duration="900000" />
       <workItem from="1647322683909" duration="999000" />
-      <workItem from="1647335323995" duration="3839000" />
+      <workItem from="1647335323995" duration="5970000" />
     </task>
     <task id="LOCAL-00001" summary="delete error">
       <created>1631425559641</created>
@@ -473,7 +470,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647322424172</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="bj24510_시간복잡도를배운도도.py">
+      <created>1647405355635</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1647405355635</updated>
+    </task>
+    <task id="LOCAL-00034" summary="upload">
+      <created>1647405371162</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1647405371162</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -492,7 +503,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="bj1932_정수삼각형" />
     <MESSAGE value="bj2579_계단오르기" />
     <MESSAGE value="bj2565_전깃줄.py" />
     <MESSAGE value="bj12865_평범한배낭.py" />
@@ -515,9 +525,10 @@
     <MESSAGE value="bj23048_자연수색칠하기.py" />
     <MESSAGE value="bj24023_babe(시간초과).py&#10;답은 잘 나오는데 시간초과됨. 좀 더 최적화가 필요함" />
     <MESSAGE value="bj9020_골드바흐의 추측.py" />
-    <MESSAGE value="upload" />
     <MESSAGE value="bj7562_나이트의이동.py&#10;Add line comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="bj7562_나이트의이동.py&#10;Add line comment" />
+    <MESSAGE value="bj24510_시간복잡도를배운도도.py" />
+    <MESSAGE value="upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Coding_Test$bj24023_babe.coverage" NAME="bj24023_babe Coverage Results" MODIFIED="1647169930195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/백준문제/Python/2021 나는코더다" />
@@ -535,6 +546,7 @@
     <SUITE FILE_PATH="coverage/Coding_Test$bj23048__.coverage" NAME="bj23048_자연수 색칠하기 Coverage Results" MODIFIED="1647248596130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/백준문제/Python/2021 서울대학교 프로그래밍 경시대회" />
     <SUITE FILE_PATH="coverage/codingtest$test.coverage" NAME="test Coverage Results" MODIFIED="1641386344389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/codingtest$bj23305_sugang.coverage" NAME="bj23305_sugang Coverage Results" MODIFIED="1643095909579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/백준문제/Python/연세대경진대회" />
+    <SUITE FILE_PATH="coverage/Coding_Test$bj24509__.coverage" NAME="bj24509_상품의 주인은 Coverage Results" MODIFIED="1647406460050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/백준문제/Python/2022 ICPC Sinchon Winter Algorithm Camp Contest" />
     <SUITE FILE_PATH="coverage/codingtest$bj23762_.coverage" NAME="bj23762_배드민턴복식팀 Coverage Results" MODIFIED="1644467899658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/백준문제/Python/2021 고려대학교 프로그래밍 경시대회" />
     <SUITE FILE_PATH="coverage/codingtest$bj15650_NM_2.coverage" NAME="bj15650_N과M 2 Coverage Results" MODIFIED="1632361931416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/백준문제/백트레킹" />
     <SUITE FILE_PATH="coverage/Coding_Test$bj1018_.coverage" NAME="bj1018_체스판다시칠하기 Coverage Results" MODIFIED="1647179432472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/백준문제/Python/브루트포스" />
@@ -550,6 +562,7 @@
     <SUITE FILE_PATH="coverage/codingtest$bj9012_.coverage" NAME="bj9012_괄호 Coverage Results" MODIFIED="1644469928731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/백준문제/Python/스택" />
     <SUITE FILE_PATH="coverage/codingtest$bj12865_.coverage" NAME="bj12865_평범한배낭 Coverage Results" MODIFIED="1636445501654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/백준문제/동적계획법1" />
     <SUITE FILE_PATH="coverage/codingtest$bj1149_RGB.coverage" NAME="bj1149_RGB거리 Coverage Results" MODIFIED="1634133970692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/백준문제/동적계획법1" />
+    <SUITE FILE_PATH="coverage/Coding_Test$codecs.coverage" NAME="codecs Coverage Results" MODIFIED="1647406451921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../Python/Lib" />
     <SUITE FILE_PATH="coverage/codingtest$bj1719_.coverage" NAME="bj1719_택배 Coverage Results" MODIFIED="1643943767650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/백준문제/Python/다익스트라" />
     <SUITE FILE_PATH="coverage/codingtest$bj18870_.coverage" NAME="bj18870_좌표압축 Coverage Results" MODIFIED="1632321820657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/백준문제/정렬" />
     <SUITE FILE_PATH="coverage/Coding_Test$bj11403_.coverage" NAME="bj11403_경로찾기 Coverage Results" MODIFIED="1647066719681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/백준문제/Python/DFS와 BFS" />
