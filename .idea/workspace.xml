@@ -12,13 +12,32 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8095c166-cee9-4282-804a-9d2be583cee4" name="Default Changelist" comment="bj24511_queuestack.py">
-      <change afterPath="$PROJECT_DIR$/.idea/Coding-Test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="8095c166-cee9-4282-804a-9d2be583cee4" name="Default Changelist" comment="경로 이름 한글에서 영어로 바꾸기">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준문제/Python/2022 ICPC Sinchon Winter Algorithm Camp Contest/bj24511_queuestack.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준문제/Python/2022 ICPC Sinchon Winter Algorithm Camp Contest/bj24511_queuestack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoon/C++/C++/.vs/C++/v16/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoon/C++/C++/.vs/C++/v16/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoon/C++/C++/.vs/C++/v16/ipch/AutoPCH/e25d9ba796e482ab/BJ23303_D2.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoon/C++/C++/C++.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoon/C++/C++/C++.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoon/C++/C++/C++.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoon/C++/C++/C++.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoon/C++/C++/Debug/C++.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoon/C++/C++/Debug/C++.exe.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoon/C++/C++/Debug/C++.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoon/C++/C++/Debug/C++.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoon/C++/C++/Debug/C++.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoon/C++/C++/Debug/C++.tlog/C++.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoon/C++/C++/Debug/C++.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoon/C++/C++/Debug/C++.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoon/C++/C++/Debug/C++.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoon/C++/C++/Debug/C++.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoon/C++/C++/Debug/C++.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoon/C++/C++/Debug/C++.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoon/C++/C++/Debug/C++.vcxproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoon/C++/C++/Debug/bj23303_D2.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoon/C++/C++/Debug/vc142.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoon/C++/C++/Debug/vc142.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoon/C++/C++/bj23303_D2.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,14 +111,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\changjin\PycharmProjects\Coding-Test\BaekJoon\C++" />
       <recent name="C:\Users\이창진\PycharmProjects\Coding-Test\백준문제\Python\2022 ICPC Sinchon Winter Algorithm Camp Contest" />
       <recent name="Z:\Github\codingtest\백준문제\Python" />
     </key>
   </component>
   <component name="RunManager" selected="Python.bj24511_queuestack">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="bj24509_상품의 주인은" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -283,6 +303,9 @@
       <workItem from="1647495213402" duration="173000" />
       <workItem from="1647499966327" duration="68000" />
       <workItem from="1647501254321" duration="3000" />
+      <workItem from="1647501307055" duration="76000" />
+      <workItem from="1647501425956" duration="63000" />
+      <workItem from="1647501527189" duration="454000" />
     </task>
     <task id="LOCAL-00001" summary="delete error">
       <created>1631425559641</created>
@@ -536,7 +559,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647414291913</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="경로 이름 한글에서 영어로 바꾸기">
+      <created>1647501366490</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1647501366490</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,7 +585,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="bj12865_평범한배낭.py" />
     <MESSAGE value="bj11399_ATM.py" />
     <MESSAGE value="Super Reduced String.py" />
     <MESSAGE value="Sherlock and the Valid String.py" />
@@ -580,6 +609,7 @@
     <MESSAGE value="upload" />
     <MESSAGE value="bj24509_상품의 주인은.py" />
     <MESSAGE value="bj24511_queuestack.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="bj24511_queuestack.py" />
+    <MESSAGE value="경로 이름 한글에서 영어로 바꾸기" />
+    <option name="LAST_COMMIT_MESSAGE" value="경로 이름 한글에서 영어로 바꾸기" />
   </component>
 </project>
