@@ -4,14 +4,22 @@
 using namespace std;
 
 int main() {
-    int menu[5],i,j,set[6],k=0;
-    for(i=0;i<5;i++)
-        cin >> menu[i];
-    for(i=0;i<3;i++)
-        for(j=3;j<5;j++) {
-            set[k] = menu[i] + menu[j] - 50;
-            k++;
-        }
-    sort(set,set+6);
-    cout << set[0];
+    int i,j,sum=0,t,dwarfs[9];
+    for(i=0;i<9;i++) {
+        cin >> t;
+        dwarfs[i] = t;
+        sum+=t;
+    }
+    sort(dwarfs,dwarfs+9);
+    for(i=0;i<9;i++)
+        for(j=i+1;j<9;j++)
+            if(sum-dwarfs[i]-dwarfs[j] == 100){
+                dwarfs[i] = -1;
+                dwarfs[j] = -1;
+                break;
+            }
+    for(i=0;i<9;i++)
+        if(dwarfs[i] != -1)
+            cout << dwarfs[i] << "\n";
+
 }
