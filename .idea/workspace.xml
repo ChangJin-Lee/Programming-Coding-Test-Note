@@ -12,7 +12,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8095c166-cee9-4282-804a-9d2be583cee4" name="Default Changelist" comment="경로 이름 한글에서 영어로 바꾸기" />
+    <list default="true" id="8095c166-cee9-4282-804a-9d2be583cee4" name="Default Changelist" comment="경로 이름 한글에서 영어로 바꾸기">
+      <change beforePath="$PROJECT_DIR$/BaekJoon/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/BaekJoon/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoon/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BaekJoon/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -303,6 +306,7 @@
       <workItem from="1647501307055" duration="76000" />
       <workItem from="1647501425956" duration="63000" />
       <workItem from="1647501527189" duration="613000" />
+      <workItem from="1647860586213" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="delete error">
       <created>1631425559641</created>
