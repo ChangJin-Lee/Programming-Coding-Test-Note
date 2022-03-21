@@ -4,15 +4,17 @@
 using namespace std;
 
 int main() {
-    int i, v, n,cnt, a[101];
-    cin >> n;
-    for(i=0;i<n;i++){
-        cin >> a[i];
+    int i,t,n,minval,maxval,tmp;
+    cin >> t;
+    while(t--) {
+        minval=99;
+        maxval=0;
+        cin >> n;
+        for (i = 0; i < n; i++) {
+            cin >> tmp;
+            if(tmp > maxval) maxval = tmp;
+            if(tmp < minval) minval = tmp;
+        }
+        cout << (maxval - minval)*2;
     }
-    cin >> v;
-    cnt = 0;
-    for(i=0;i<n;i++)
-        if(a[i] == v)
-            cnt++;
-    cout << cnt;
 }
