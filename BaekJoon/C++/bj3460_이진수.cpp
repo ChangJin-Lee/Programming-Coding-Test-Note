@@ -26,3 +26,16 @@ int main() {
         cout << "\n";
     }
 }
+
+
+//#include<cstdio>
+//int t,n,i;
+//int main(){
+//    scanf("%d", &t);
+//    while (t--){
+//        scanf("%d", &n);
+//        for (i = 0; n; i++){
+//            if (n & 1)printf("%d ", i);
+//            n >>= 1;
+//        }
+//    }
