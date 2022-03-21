@@ -1,1 +1,1 @@
-CMakeLists.txt not found in C:\Users\changjin\PycharmProjects\Coding-Test Select CMakeLists.txt
+CMakeLists.txt not found in /Users/changjin/CLionProjects/Coding-Test Select CMakeLists.txt
