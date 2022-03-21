@@ -29,8 +29,3 @@ int main() {
             cout << dwarfs[i] << "\n";
 
 }
-
-//
-// Created by Chang Jin Lee on 2022/03/21.
-//
-
