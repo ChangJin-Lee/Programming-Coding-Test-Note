@@ -1,3 +1,8 @@
+//문자열과 int형 변환에 대한 내용이었다.
+//string 헤더파일을 추가해줘야하고,
+//stoi -> 이걸로 문자열을 int형으로 바꿀 수 있고,
+//to_string -> 이걸로 int형을 문자열로 바꿀 수 있다.
+
 #include <iostream>
 #include <algorithm>
 #include <string>
