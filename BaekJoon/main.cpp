@@ -19,10 +19,13 @@ int main() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     string x,y;
     cin >> x >> y;
     cout << rev(to_string(rev(x) + rev(y)));
 =======
+=======
+>>>>>>> parent of 9b29f5d (bj5543_상근날드.cpp)
 =======
 >>>>>>> parent of 9b29f5d (bj5543_상근날드.cpp)
 =======
@@ -40,6 +43,9 @@ int main() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 9b29f5d (bj5543_상근날드.cpp)
+=======
 >>>>>>> parent of 9b29f5d (bj5543_상근날드.cpp)
 =======
 >>>>>>> parent of 9b29f5d (bj5543_상근날드.cpp)
