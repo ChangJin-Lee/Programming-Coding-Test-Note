@@ -1,3 +1,0 @@
-C:/Users/changjin/PycharmProjects/Coding-Test/BaekJoon/cmake-build-debug/CMakeFiles/BaekJoon.dir
-C:/Users/changjin/PycharmProjects/Coding-Test/BaekJoon/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/changjin/PycharmProjects/Coding-Test/BaekJoon/cmake-build-debug/CMakeFiles/rebuild_cache.dir
