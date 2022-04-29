@@ -18,7 +18,7 @@ def solution(N,tree):
         print(parent[i])
 
 N = int(input())
-tree = dict()
+tree = {}
 for i in range(1,N+1):
     tree[i] = []
 for _ in range(N-1):
