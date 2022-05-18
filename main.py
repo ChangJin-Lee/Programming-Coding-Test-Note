@@ -1,3 +1,5 @@
-a = ["1","2","3"," ", "4", "5", "6"]
-print("".join(a))
-# 경로 설정
+import heapq
+a = []
+heapq.heapify(a)
+print(a)
+# print(heapq.heappop(a))
