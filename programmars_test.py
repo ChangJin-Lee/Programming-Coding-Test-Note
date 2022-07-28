@@ -1,45 +1,40 @@
-from audioop import reverse
-from cgitb import strong
+# import heapq
 
+# def solution(n, works):
+#     answer = 0
+#     for i in range(n):
+#         j = works.index(max(works))
+#         if works[j] != 0:
+#             works[j]-=1
+#     for work in works:
+#         answer += work**2
+#     return answer
+# def solution(n, works):
+#     answer = 0
+#     for i in range(n):
+#         heapq.heapify(works)
+#         works[-1]-=1
+#         print(works)
+        
+#     print(works)
+#     for val in works:
+#         answer += val**2
+#     return answer
 
-def solution(stones, k):
+def solution(n, weak, dist):
     answer = 0
-    state = stones[0]
-    n=0
-    
-    for i in range(1,len(stones)):
-        if stones[i] < state:
-            n+=1
+    for i in range(len(weak)-1,-1,-1):
+        if weak[i] > n/2:
+            weak[i] -= n
         else:
-            n=0
-            state=stones[i]
-        if n==k:
-            new_stones=stones[i-n+1:i+1]
             break
-    print(max(new_stones))
-    
-    print(stones)
-    for stone in stones:
-        print(stone-1, end=" ")
-    print("")
-    for stone in stones:
-        print(stone-2, end=" ")
-    print("")
-    for stone in stones:
-        print(stone-3, end=" ")
-    print("")    
-    
-    stones.sort(reverse=True)
-    print(stones)
-    for stone in stones:
-        print(stone-1, end=" ")
-    print("")
-    for stone in stones:
-        print(stone-2, end=" ")
-    print("")
-    for stone in stones:
-        print(stone-3, end=" ")
+    sums = min(weak)
+    for i in range(len(weak)):
+        weak[i]+=-sums
+    weak.sort()
+    print(weak)
     return answer
 
+print(solution(12,[1, 5, 6, 10],[1, 2, 3, 4]))
+print(solution(12,[1, 3, 4, 9, 10],[3, 5, 7]))
 
-print(solution([2, 4, 5, 3, 2, 1, 4, 2, 5, 1],3))
