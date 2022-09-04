@@ -1,5 +1,6 @@
 # bfs를 활용하는 전형적인 문제였음.
-# 2차원 배열에서 특정한 조건에 해당하는 값을 찾으라는 문제는 거의 무조건 bfs,dfs임.
+# 2차원 배열에서 특정한 조건에 해당하는 값을
+# 찾으라는 문제는 거의 무조건 bfs,dfs임.
 # 헷갈렸던 부분은 밑에 주석처리 해뒀음.
 from collections import deque
 
@@ -17,7 +18,11 @@ def bfs(places):
         for (nx, ny) in [(1, 0), (0, -1), (-1, 0), (0, 1)]:
             (nx, ny) = (x + nx, y + ny)
             if 0 <= nx < col and 0 <= ny < row:
-                if places[x][y] == 'O' and places[nx][ny] == 'P': ## 이거랑 밑에 elif 두개를 visit[nx][ny] == False 일때만 실행되도록 처음에 짰는데 잘 생각해보면 visit[nx][ny]가 True일 때도 탐색을 해야한다.
+                ## 이거랑 밑에 elif 두개를
+                # visit[nx][ny] == False 일때만 실행되도록
+                # 처음에 짰는데 잘 생각해보면 visit[nx][ny]가 
+                # True일 때도 탐색을 해야한다.
+                if places[x][y] == 'O' and places[nx][ny] == 'P': 
                     pcnt += 1
                 elif places[x][y] == 'P' and places[nx][ny] == 'P':
                     return 0

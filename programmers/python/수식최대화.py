@@ -6,12 +6,12 @@ def solution(expression):
     expression = list(expression)
     priority = list(itertools.permutations(expset,3))
     exp = []
+    # split expressions and numbers
     for i in range(len(expression)):
         if expression[i] in expset:
             exp.append(expression[i])
             expression[i] = " "
     numbers = list(map(int,"".join(expression).split(" ")))
-    # print(numbers, exp, priority)
     for ex in priority:
         cnumbers = copy.deepcopy(numbers)
         cexp = copy.deepcopy(exp)

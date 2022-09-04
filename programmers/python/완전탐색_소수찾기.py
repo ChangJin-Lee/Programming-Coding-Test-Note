@@ -25,7 +25,6 @@ def solution(numbers):
     for i in range(1,len(lnumbers)+1):
         pnumbers = list(itertools.permutations(lnumbers,i))
         pnumbers = list(set(pnumbers))
-        # print(pnumbers)
         for pnumber in pnumbers:
             ppnumber = int("".join(map(str,list(pnumber))))
             if ppnumber in primes:
