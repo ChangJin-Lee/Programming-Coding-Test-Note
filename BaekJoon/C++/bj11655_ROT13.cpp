@@ -7,49 +7,55 @@
 #include <algorithm>
 #include <string>
 
+#define _CRT_SECUER_NO_WARNINGS
+
 using namespace std;
 
-int main() {
-    int i;
-    string s;
-    getline(cin,s);
-    for(i=0;i<s.length();i++){
-        if(s[i] != ' '){
-            if(65<=s[i] and s[i]<=90){ // 대문자라면
-                if(s[i]>77){
-                    s[i]= 65+12-(90-s[i]);
-                }
-                else{
-                    s[i]+=13;
-                }
-            }
-            else if(97<=s[i] and s[i]<=122){ // 소문자라면
-                if(s[i]>109){
-                    s[i] = 97+12-(122-s[i]);
-                }
-                else{
-                    s[i]+=13;
-                }
-            }
-        }
-    }
-    cout << s;
-}
-
+// int main() {
+//     int i;
+//     string s;
+//     getline(cin,s);
+//     for(i=0;i<s.length();i++){
+//         if(s[i] != ' '){
+//             if(65<=s[i] and s[i]<=90){ // 대문자라면
+//                 if(s[i]>77){
+//                     s[i]= 65+12-(90-s[i]);
+//                 }
+//                 else{
+//                     s[i]+=13;
+//                 }
+//             }
+//             else if(97<=s[i] and s[i]<=122){ // 소문자라면
+//                 if(s[i]>109){
+//                     s[i] = 97+12-(122-s[i]);
+//                 }
+//                 else{
+//                     s[i]+=13;
+//                 }
+//             }
+//         }
+//     }
+//     cout << s;
+// }
 
 // 고수들의 의견을 첨가한 코드
-#include<stdio.h>
+#include <stdio.h>
 
 char s[111];
 
-char conv(char a){
-    if('a'<=a && a<='z')return (a-'a'+13)%26+'a';
-    if('A'<=a && a<='Z')return (a-'A'+13)%26+'A';
+char conv(char a)
+{
+    if ('a' <= a && a <= 'z')
+        return (a - 'a' + 13) % 26 + 'a';
+    if ('A' <= a && a <= 'Z')
+        return (a - 'A' + 13) % 26 + 'A';
     return a;
 }
 
-int main(){
+int main()
+{
     gets(s);
-    for(int i=0; s[i]; i++)putchar(conv(s[i]));
+    for (int i = 0; s[i]; i++)
+        putchar(conv(s[i]));
     return 0;
 }

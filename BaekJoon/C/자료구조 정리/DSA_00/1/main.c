@@ -1,15 +1,17 @@
 #include <stdio.h>
+#define _CRT_SECUER_NO_WARNINGS
 
 int add(int, int);
 int multiple(int, int);
 
-int main() {
+int main()
+{
 	int a, b;
-	printf("µÎ °³ÀÇ Á¤¼ö ÀÔ·Â >>");
+	printf("ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ >>");
 	scanf_s("%d %d", &a, &b);
 
-	printf("µÎ¼öÀÇ µ¡¼À °á°ú : %d\n", add(a, b));
-	printf("µÎ¼öÀÇ °ö¼À °á°ú : %d\n", multiple(a, b));
+	printf("ï¿½Î¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ : %d\n", add(a, b));
+	printf("ï¿½Î¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ : %d\n", multiple(a, b));
 }
 
 int add(int a, int b)
