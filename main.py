@@ -1,34 +1,28 @@
-from collections import deque
+from collections import defaultdict
 
 
-def bfs(n, nodes, k):
-    visit = [[False for x in range(n)] for y in range(n)]
-    q = deque()
-    q.append((k, [k]))
+def solution(genres, plays):
+    answer = []
+    dic = defaultdict(dict)
+    totaldic = defaultdict(int)
+    for (genre, play) in zip(genres, plays):
+        dic[genre].update({plays.index(play): play})
 
-    while q:
-        (x, networks) = q.pop()
-        for i in range(n):
-            if x != i:
-                if nodes[x][i] == 1 and visit[x][i] == False:
-                    networks.append(i)
-                    q.append((i, networks))
-                visit[x][i] = True
-                visit[i][x] = True
-    return networks
+    print(dic)
+    for m in dic.items():
+        total = sum((m[1].values()))
+        totaldic[m[0]] = total
 
+    genre_rankings = sorted(totaldic, key=lambda x: x[1], reverse=True)
 
-def solution(n, computers):
-    answer = 0
-    tmp = []
-    for i in range(n):
-        k = set(bfs(n, computers, i))
-        if k not in tmp:
-            tmp.append(k)
-            answer += 1
+    for genre_ranking in genre_rankings:
+        tmp = dic[genre_ranking]
+        print(tmp)
+        song_rankings = sorted(tmp, key=lambda x: x[1], reverse=True)
+        print(song_rankings)
     return answer
 
 
 if __name__ == "__main__":
-    print(solution(3,	[[1, 1, 0], [1, 1, 0], [0, 0, 1]]))
-    print(solution(3,	[[1, 1, 0], [1, 1, 1], [0, 1, 1]]))
+    solution(["classic", "pop", "classic", "classic", "pop"],
+             [500, 600, 150, 800, 2500])
