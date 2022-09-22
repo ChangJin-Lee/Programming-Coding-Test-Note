@@ -1,3 +1,5 @@
+# deque 사용법 잘 알아두어야함.
+
 from collections import deque
 
 
