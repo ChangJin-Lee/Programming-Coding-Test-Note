@@ -1,27 +1,24 @@
-from collections import defaultdict
-
-
-def solution(genres, plays):
-    answer = []
-    dic = defaultdict(dict)
-    totaldic = defaultdict(int)
-    for (genre, play) in zip(genres, plays):
-        dic[genre].update({plays.index(play): play})
-
-    for m in dic.items():
-        total = sum((m[1].values()))
-        totaldic[m[0]] = total
-    genre_rankings = sorted(totaldic, key=lambda x: x[1], reverse=True)
-
-    for genre_ranking in genre_rankings:
-        tmp = dict(dic[genre_ranking])
-        song_rankings = sorted(
-            tmp.items(), key=lambda x: x[1], reverse=True)[0:2]
-        for k in song_rankings:
-            answer.append(k[0])
-    return answer
+def solution(jobs):
+    answer = 0
+    n = len(jobs)
+    jobs = sorted(jobs, key=lambda x: x[0])
+    while jobs:
+        init = jobs.pop(0)
+        zeropoint = init[1]+init[0]
+        answer += init[1]
+        mjobs = sorted(jobs, key=lambda x: (x[1]))
+        for job in mjobs:
+            if job[0] <= zeropoint:
+                jobs.pop(jobs.index(job))
+                answer += zeropoint - job[0] + job[1]
+                zeropoint += job[1]
+                break
+        if len(jobs) == 1:
+            answer += jobs[0][1]
+            break
+    return answer // n
 
 
 if __name__ == "__main__":
-    print(solution(["classic", "pop", "classic", "classic", "pop"],
-                   [500, 600, 150, 800, 2500]))
+    print(solution([[0, 3], [1, 10], [2, 8]]))
+    print(solution([[0, 3], [1, 9], [2, 6]]))
