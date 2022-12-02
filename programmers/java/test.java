@@ -4,19 +4,23 @@
 
 import java.util.HashMap;
 
-interface Moveable{
+interface Moveable {
     int move();
+
     int stop();
 }
 
-class Ball implements Moveable{
-    int move(){
+class Ball implements Moveable {
+    int move() {
         System.out.println(("fdsa"));
     }
-    int stop(){
+
+    int stop() {
         System.out.println(("dfe"));
     }
+
 }
+
 public public static void main() {
-    
+    System.out.println("fdsfa");
 }
