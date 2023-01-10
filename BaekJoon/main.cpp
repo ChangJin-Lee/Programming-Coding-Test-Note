@@ -1,6 +1,4 @@
-#include <iostream>
-#include <algorithm>
-#include <string>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -11,4 +9,10 @@ int main() {
     else k=n;
     for(i=0;i<k;i++)
         cout << n;
+    vector<int> v(2);
+    for(int k : v){
+        cout << k;
+    }
+    for(int k : 5)
+        cout << "test";
 }
