@@ -73,8 +73,8 @@
 * [LCM (Least Common Multiple)](/Number%20Theory/lcm.py)
 * [Check Prime Number](/Number%20Theory/is_prime_number.py)
 * [Find All Divisors](/Number%20Theory/find_all_divisors_of_a_number.py) -->
-* [Prime Factorization](/math/bj2581_소수.py)
-* [Sieve of Eratosthenes](/math/bj1929_소수구하기.py)
+* [Prime Factorization](/Math/bj2581_소수.py)
+* [Sieve of Eratosthenes](/Math/bj1929_소수구하기.py)
 <!-- 
 ### Signal Processing
 
