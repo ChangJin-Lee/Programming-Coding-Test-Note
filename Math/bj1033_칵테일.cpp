@@ -1,7 +1,5 @@
 #include <iostream>
 #include <algorithm>
-#include <math.h>
-#include <map>
 
 using namespace std;
 
@@ -57,34 +55,6 @@ void update(int idx, int val, int line, int cnt, int n)
 
 int main()
 {
-
-    // a b p q
-    // a번 재료의 질량을 b번 재료의 질량으로 나눈 값이 p/q 라는 뜻이다.
-    //      5
-    //      4 0 1 1
-    //      4 1 3 1
-    //      4 2 5 1
-    //      4 3 7 1
-
-    //  3/0 = 7/5
-    //  3 * 5 = 7 * 0
-    //  3 : 0 = 7 : 5
-
-    // 4
-    // c d 3 4
-    // a b 3 1
-    // d a 7 5
-    // a d 20 21
-    // b d 5 21
-
-    // a = 3b
-    // 7a = 5d
-    // 3d = 4c
-    // 4/3 * 5 d = 7a
-    // 20d = 21a
-    // a d 20 21
-    // 21b = 5d
-
     int n;               // need to ingredient
     int a, b, p, q;      // input values
     int aVal, bVal, gcd; // using in while loop
