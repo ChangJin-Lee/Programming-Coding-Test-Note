@@ -1,1 +1,4 @@
-2)
+
+        answer += a[i] * b[i];
+    }
+    cout << answer << endl;
