@@ -8,14 +8,15 @@ int main()
     int n;
     int cost, number;
     int totalAmount;
+    int calculatedTotalAmount;
     cin >> totalAmount >> n;
     for (int index = 0; index < n; index++){
         cin >> cost >> number;
-        totalAmount -= cost*number;
+        calculatedTotalAmount += cost*number;
     }
-    if(totalAmount == 0){
-        cout << "Yes";
+    if(calculatedTotalAmount != totalAmount){
+        cout << "No" << endl;
     } else {
-        cout << "No";
+        cout << "Yes" << endl;
     }
 }
