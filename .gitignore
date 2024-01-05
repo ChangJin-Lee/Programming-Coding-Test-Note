@@ -1,8 +1,8 @@
 
 .DS_Store
-test*.cpp
+/test/test*.cpp
 
-test.cpp
+/test/test.cpp
 test1.cpp
 test2.cpp
 test3.cpp
