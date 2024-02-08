@@ -1,5 +1,4 @@
 #include <iostream>
-#include <algorithm>
 #include <tuple>
 #include <map>
 #define fastcpp ios::sync_with_stdio(0), cin.tie(nullptr), cout.tie(nullptr);
