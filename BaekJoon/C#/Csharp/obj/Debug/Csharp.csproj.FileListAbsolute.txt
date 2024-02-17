@@ -1,2 +1,0 @@
-Z:\Github\codingtest\백준문제\C#\Csharp\obj\Debug\Csharp.csproj.AssemblyReference.cache
-Z:\Github\codingtest\백준문제\C#\Csharp\obj\Debug\Csharp.csproj.CoreCompileInputs.cache

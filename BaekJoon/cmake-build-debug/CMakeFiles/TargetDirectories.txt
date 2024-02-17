@@ -1,3 +1,0 @@
-C:/Github/Coding-Test/BaekJoon/cmake-build-debug/CMakeFiles/BaekJoon.dir
-C:/Github/Coding-Test/BaekJoon/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Github/Coding-Test/BaekJoon/cmake-build-debug/CMakeFiles/rebuild_cache.dir
