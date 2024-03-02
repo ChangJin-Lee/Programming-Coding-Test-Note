@@ -1,17 +1,27 @@
 #include <iostream>
+#include <vector>
 
 #define fastcpp ios::sync_with_stdio(0), cin.tie(nullptr), cout.tie(nullptr);
 
 using namespace std;
 
-int fibonacci(int n);
-
-int countZero = 0;
-int countOne = 0;
-
 int main()
 {
+    fastcpp;
     int t,n;
+    vector<int> countZero(41,0);
+    vector<int> countOne(41,0);
+
+    countZero[0] = 1;
+    countZero[1] = 0;
+    countOne[0] = 0;
+    countOne[1] = 1;
+
+    for(int i = 2; i < 41; i++)
+    {
+        countZero[i] = countZero[i-1] + countZero[i-2];
+        countOne[i] = countOne[i-1] + countOne[i-2];
+    }
 
     cin >> t;
 
@@ -19,24 +29,6 @@ int main()
     {
         cin >> n; 
 
-        fibonacci(n);
-
-        cout << countZero << " " << countOne << "\n";
-        countZero = 0;
-        countOne = 0;
-    }
-}
-
-
-int fibonacci(int n) 
-{
-    if (n == 0) {
-        countZero++;
-        return 0;
-    } else if (n == 1) {
-        countOne++;
-        return 1;
-    } else {
-        return fibonacci(n-1) + fibonacci(n-2);
+        cout << countZero[n] << " " << countOne[n] << "\n";
     }
 }
