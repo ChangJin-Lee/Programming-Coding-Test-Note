@@ -4,6 +4,9 @@
 #include <string>
 #include <queue>
 
+// 반례 모음집
+// https://www.acmicpc.net/board/view/31853
+
 #define fastcpp ios::sync_with_stdio(0), cin.tie(nullptr), cout.tie(nullptr)
 
 using namespace std;
