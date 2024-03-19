@@ -19,7 +19,6 @@ int main()
 
 int DAQ(int e, int r, int c)
 {
-    // if(pow(4,e-1))
     int length = pow(2,e-1);
     int partition = pow(4,e-1);
 
@@ -34,21 +33,19 @@ int DAQ(int e, int r, int c)
         else if(r == 1 && c == 1)
             return 3;
     }
+    
+    if(r < length)
+    {
+        if(c < length)
+            return DAQ(e-1,r,c);
+        else
+            return partition + DAQ(e-1, r, c-length);
+    }
     else
     {
-        if(r < length)
-        {
-            if(c < length)
-                return DAQ(e-1,r,c);
-            else
-                return partition + DAQ(e-1, r, c-length);
-        }
+        if(c < length)
+            return 2*partition + DAQ(e-1, r-length, c);
         else
-        {
-            if(c < length)
-                return 2*partition + DAQ(e-1, r-length, c);
-            else
-                return 3*partition + DAQ(e-1, r-length, c-length);
-        }
+            return 3*partition + DAQ(e-1, r-length, c-length);
     }
 }
